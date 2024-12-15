@@ -38,7 +38,7 @@ function AccordionList({ faqsObj, num }) {
   const [isOpen, setIsOpen] = useState(false);
 
   function handleToggle() {
-    setIsOpen((cur) => !isOpen);
+    setIsOpen((a) => !isOpen);
   }
 
   return (
