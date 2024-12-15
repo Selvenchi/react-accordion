@@ -34,6 +34,8 @@ function Accordion() {
   );
 }
 
+console.log("heya");
+
 function AccordionList({ faqsObj, num }) {
   const [isOpen, setIsOpen] = useState(false);
 
